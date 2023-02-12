@@ -1,8 +1,10 @@
 public class Lab_05_03_PartyAffiliation {
     public static void main(String[] args) {
         // variable declarations
+
         String menu = "D - Democrat R - Republican I - Independent"; // menu options for party affiliation
         System.out.println(menu); // outputs menu options so that user can choose
+        System.out.println("What is your party affiliation");
         String partyAffiliation = "t"; // inputs party affiliation (I have selected an input instead of taking one)
         System.out.println("The simulated input is " + partyAffiliation); // outputs the input
         partyAffiliation = partyAffiliation.toUpperCase(); // makes the input upper case

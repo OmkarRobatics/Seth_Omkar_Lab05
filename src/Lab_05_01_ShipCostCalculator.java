@@ -1,9 +1,11 @@
 public class Lab_05_01_ShipCostCalculator {
     public static void main(String[] args) {
         // variable declarations
-       double itemPrice = 100.0; // inputs price of item (I have selected an input instead of taking one)
+        System.out.println("What is the price of the item?");
+        double itemPrice = 100.0; // inputs price of item (I have selected an input instead of taking one)
         double shippingPrice = 0;
         double totalPrice = 0;
+
         if(itemPrice >= 100) // condition - item price is greater than or equal to 100
         {
             // if the condition is true then the following lines are printed

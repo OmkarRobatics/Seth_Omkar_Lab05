@@ -1,9 +1,11 @@
 public class Lab_05_05_NumCompare {
     public static void main(String[] args) {
         // variable declarations
+        System.out.println("Enter first number");
         int num1 = 10; // inputs the first number
+        System.out.println("Enter the second number");
         int num2 = 11; // inputs the second number
-        String nonIntegerValue = "t"; // inputs this value if an integer is not entered but a string instead
+        String nonIntegerValue = ""; // inputs this value if an integer is not entered but a string instead
         if (nonIntegerValue.equals("")) // condition - string value is not entered
         {
         if (num1 == num2) // condition - the two numbers enter are equal

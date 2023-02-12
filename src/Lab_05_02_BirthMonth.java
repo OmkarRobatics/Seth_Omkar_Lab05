@@ -1,6 +1,7 @@
 public class Lab_05_02_BirthMonth {
     public static void main(String[] args) {
         // variable declarations
+        System.out.println("What is your birth month? Insert a number 1-12 inclusive");
         int birthMonth = 13; // inputs birth month ( I have selected a number instead of taking an input)
         if(birthMonth <= 12 && birthMonth >= 1) // condition that tests if the birth month value is 1 - 12 inclusive
         {
